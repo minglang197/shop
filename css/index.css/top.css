@@ -1,0 +1,33 @@
+/* 顶部css开始 */
+.top {
+    width: 100%;
+    min-width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+.top .top-left {
+    float: left;
+    height: 30px;
+}
+.top .top-right {
+    float: right;
+    height: 30px;
+}
+.top span {
+    color: #333;
+}
+.top a {
+    color: #666;
+}
+.top i {
+    color: #b3aeae;
+    padding: 0 7px;
+}
+.top a:hover {
+    color: #e1251b;
+    text-decoration: underline;
+}
+/* 顶部css结束 */

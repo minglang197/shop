@@ -1,0 +1,65 @@
+.hobby {
+    margin-top: 20px;
+}
+.hobby .hob-title {
+    height: 40px;
+    line-height: 40px;
+}
+.hob-title h4 {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hob-title div {
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.hob-title div i {
+    font-size: 18px;
+    color: #e1251b;
+    vertical-align: middle;
+}
+.hob-title div:hover i,
+.hob-title div:hover span {
+    color: #e1251b;
+}
+.hobby .hob-main {
+    margin-top: 10px;
+}
+.hobby .hob-main .hob-list:last-child {
+    margin-right: 0;
+    margin-left: 0.6px;
+}
+.hob-main .hob-list {
+    float: left;
+    height: 250px;
+    margin-right: 19px;
+    overflow: hidden;
+    border: 1px solid #e9e9e9;
+}
+.hob-main .hob-list img {
+    margin-left: 15px;
+}
+.hob-main .hob-list .hob-content {
+    width: 142px;
+    margin: 0 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.hob-list .hob-content p {
+    margin-top: 20px;
+    line-height: 20px;
+}
+.hob-list .hob-content h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #e1251b;
+}
+.hob-list:hover img {
+    transform: scale(1.1);
+}
+.hob-list:hover p {
+    color: #e1251b;
+}

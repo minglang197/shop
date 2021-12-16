@@ -1,0 +1,32 @@
+.brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: #f7f7f7;
+    line-height: 18px;
+}
+.brand ul {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+}
+
+.brand ul li {
+    line-height: 18px;
+    width: 120px;
+    float: left;
+    height: 37px;
+}
+.brand ul li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    border-left: 1px dotted #ccc;
+}
+.brand ul li:nth-child(1) a {
+    border-left: 0;
+}
+.brand ul li a img {
+    width: 100%;
+}
+

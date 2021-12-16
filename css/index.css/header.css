@@ -1,0 +1,59 @@
+/* header开始*/
+.header {
+    height: 106px;
+    vertical-align: middle;
+}
+
+.header .logo {
+    float: left;
+    height: 106px;
+    width: 210px;
+    text-align: center;
+    line-height: 110px;
+}
+
+.header .logo img {
+    display: inline-block;
+    width: 175px;
+    vertical-align: middle;
+    margin: 25px 45px;
+}
+
+.header .logo img:hover {
+    cursor: pointer;
+}
+
+.header .search {
+    margin-top: 35px;
+    font-size: 0;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header .search input {
+    width: 490px;
+    vertical-align: middle;
+    border: 2px solid #e1251b;
+    text-indent: 1em;
+    height: 32px;
+}
+
+.header .search button {
+    display: inline-block;
+    padding: 0 24px;
+    height: 32px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #e1251b;
+
+}
+
+.header .search button i {
+    font-size: 20px;
+    color: #fff;
+}
+
+/*header结束 */

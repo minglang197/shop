@@ -1,0 +1,33 @@
+.recommed {
+    margin: 10px 0;
+    font-size: 0;
+    height: 165px;
+}
+.recommed li {
+    float: left;
+}
+.recommed li:first-child {
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+}
+.recommed li:first-child a {
+    display: inline-block;
+    padding: 60px 62.5px 30px 62.5px;
+    font-size: 20px;    
+    text-align: center;
+    color: #ccc;
+}
+.recommed li:first-child a i {
+    font-size: 57px;
+}
+.recommed li:first-child a p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.recommed li:first-child a:hover {
+    color: #fff;
+}
+.recommed img:hover {
+    opacity: .8;
+}

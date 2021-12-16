@@ -1,0 +1,23 @@
+/* hotwords开始 */
+.hotwords {
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 2px solid #e1251b;
+    font-weight: bold;
+}
+.hotwords ul  li {
+    float: left;
+    padding: 14px 15px;
+}
+.hotwords ul  .all-type {
+    width: 210px;
+    background-color: #e1251b;
+    text-align: center;
+    color: #fff;
+    margin-right: 10px;
+}
+.hotwords a:hover {
+    color: #e1251b;
+}
+/* hotwords结束 */

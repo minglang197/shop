@@ -1,0 +1,249 @@
+/* 轮播图左侧开始 */
+.banner {
+    background-color: #fff;
+}
+/* 轮播图左侧结束 */
+/* 轮播图开始 */
+.banner .menu {
+    width: 210px;
+    height: 460px;
+    background-color: #f7f7f7;
+}
+.banner .menu,.banner .slide,.banner .news {
+    float: left;
+}
+.menu a:hover {
+    color: #e1251b;
+}
+.menu > ul {
+    color: #333;
+    font-size: 14px;
+    position: relative;
+}
+.menu > ul li {
+    padding: 6px 20px;
+}
+.menu > ul > li:hover {
+    background-color: #ddd;
+}
+.menu .content {
+    display: none;
+    position: absolute;
+    border: 1px solid #666;
+    width: 730px;
+    height: 460px;
+    left: 210px;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+.menu li:hover .content{
+    display: block;
+    border: 1px solid #ccc;
+}
+.menu li .content h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .content-type {
+    width: 700px;
+    padding: 20px;
+}
+.content .content-type dl {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.content .content-type dl dt {
+    float: left;
+    width: 80px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.content .content-type dl dt a {
+    float: right;
+}
+.content .content-type dl dt i {
+    float: right;
+    padding-left: 5px;
+}
+.content .content-type dl dt:hover {
+    color: #e1251b;
+}
+.content .content-type dl dd {
+    float: left;
+    width: 580px;
+    padding-left: 20px;
+}
+.content .content-type dl dd a {
+    display: inline-block;
+    padding: 0 20px 10px 0;
+    color: #666;
+}
+.content .content-type dl dd a:hover {
+    color: #e1251b;
+}
+
+
+.banner .slide {
+    position: relative;
+    width: 720px;
+    height: 454px;
+    margin: 6px 10px 0 10px;
+    overflow: hidden;
+}
+.slide ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3600px;
+    font-size: 0;
+}
+.slide ul li {
+    float: left;
+    width: 720px;
+    height: 454px;
+}
+.slide li img {
+    height: 100%;
+    width: 100%;
+}
+.slide .arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    height: 66px;
+    width: 36px;
+    line-height: 66px;
+    text-align: center;
+    z-index: 997;
+    opacity: .9;
+}
+.slide .prev {
+    left: 0;
+}
+.slide .arrow:hover{
+    background-color: #333;
+}
+.slide .next {
+    right: 0;
+}
+.slide .arrow .iconfont {
+    display: inline-block;
+    font-size: 34px;
+    color: #fff;
+    cursor: pointer;
+}
+.slide .circle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -11px;
+    margin-bottom: 10px;
+    z-index: 998;
+}
+.slide .circle  button {
+    margin: 0 2px;
+    padding: 4px;
+    border: 2px solid #666;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slide .circle > button:hover {
+    background-color: #fff;
+}
+.arr-button {
+    background-color: #fff;
+}
+
+/* 轮播图结束 */
+/* 轮播图右侧开始 */
+.banner .news {
+    width: 250px;
+}
+.banner .news .article {
+    margin-top: 6px;
+    width: 250px;
+    height: 180px;
+    border: 1px solid #e7e7e7;
+}
+.news .article .art-head {
+    font-size: 14px;
+    margin: 0 5px ;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px;
+}
+.article .art-head > span {
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+.article .art-head a {
+    float: right;
+    text-align: center;
+}
+.article .art-head a span {
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: normal;
+}
+.article .art-head a i {
+    vertical-align: middle;
+}
+.article .art-head a:hover {
+    color: #e1251b;
+}
+.article .art-list {
+    margin: 0 15px;
+    font-size: 14px;
+}
+.article .art-list li {
+    padding-top: 8px;
+}
+.article .art-list li a {
+    font-size: 12px;
+}
+.article .art-list li i {
+    font-weight: bold;
+}
+.article .art-list li a:hover {
+    color: #e1251b;
+}
+.icons {
+    font-size: 0;
+    border-right: 1px solid #e7e7e7;
+}
+.icons a {
+    float: left;
+    height: 64px;
+    width: 25%;
+    font-size: 12px;
+    text-align: center;
+    border-left:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+    ;
+}
+.icons i {
+    display: inline-block;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(241, 135, 153);
+    text-align: center;
+    vertical-align: middle;
+}
+.icons a:hover i,.icons a:hover span{
+    color: #e1251b;
+}
+.icons a span {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+/* 轮播图右侧结束 */
+.banner .pic {
+    margin-top: 7px;
+}
+.banner .pic img {
+    width: 100%;
+}
+/* banner结束 */

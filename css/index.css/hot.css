@@ -1,0 +1,68 @@
+.hot .hot-top {
+    width: 312px;
+    margin: 0 auto;
+}
+.hot .hot-top a {
+    float: left;
+    padding: 0 18px;
+    height: 78px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.hot .hot-top a i {
+    display: block;
+    font-size: 35px;
+    padding: 14px 0 10px 0;
+}
+.hot .hot-top a i {
+    color: #dcdcdc;
+}
+.hot .hot-top a p {
+    color: #dcdcdc;
+    font-weight: bold;
+}
+.add-color {
+    color: #ff713f!important;
+}
+.hot .hot-top a:hover i {
+    color: #ff713f;
+}
+.hot .hot-top a:hover p{
+    color: #ff713f;
+}
+.hot .hot-main a {
+    float: left;
+    width: 269px;
+    margin-right: 40.8px;
+    line-height: 24px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+.hot .hot-main a:hover {
+    box-shadow: -2px 2px 1px #ddd,
+                2px -2px 1px #ddd;
+}
+.hot .hot-main a.clear{
+    margin-right: 0;
+}
+.hot .hot-main a img {
+    display: inline-block;
+    height: 200px;
+    margin: 5px 0;
+}
+.hot .hot-main a p:first-of-type{
+    font-weight: bold;
+    font-size: 14px;
+}
+.hot .hot-main a p:last-of-type {
+    color: #999;
+}
+.hot .hot-main a h4 {
+    padding: 3px 0 8px 0;
+    color: #e1251b;
+    font-size: 16px;
+}
+.hot .hot-main a:hover p,.hot .hot-main a:hover h4{
+    color: #e1251b;
+}

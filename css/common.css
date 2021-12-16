@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+}
+
+body {
+    font-family: tahoma, arial, "Hiragino Sans GB", "Microsoft Yahei", 宋体, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    outline: none;
+    border: 0;
+}
+input{  
+	background:none;  
+	outline:none;  
+	border:1px solid #ccc;
+}
+input:focus{   
+	border:none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../iconfont/font_2998381_j8p8b70vj5/iconfont.woff2') format('woff2'),
+         url('../iconfont/font_2998381_j8p8b70vj5/iconfont.woff') format('woff'),
+         url('../iconfont/font_2998381_j8p8b70vj5/iconfont.ttf') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
